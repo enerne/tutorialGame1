@@ -17,6 +17,9 @@
 		E34AB9052529587D007AF254 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34AB9032529587D007AF254 /* LaunchScreen.storyboard */; };
 		E34AB9102529587D007AF254 /* tutorialGame1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34AB90F2529587D007AF254 /* tutorialGame1Tests.swift */; };
 		E34AB91B2529587D007AF254 /* tutorialGame1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34AB91A2529587D007AF254 /* tutorialGame1UITests.swift */; };
+		E34AB95F25295AB9007AF254 /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = E34AB95E25295AB9007AF254 /* Starfield.sks */; };
+		E34AB96325295AED007AF254 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = E34AB96225295AED007AF254 /* spark.png */; };
+		E34AB96525295B0F007AF254 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = E34AB96425295B0F007AF254 /* Explosion.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		E34AB9162529587D007AF254 /* tutorialGame1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tutorialGame1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E34AB91A2529587D007AF254 /* tutorialGame1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tutorialGame1UITests.swift; sourceTree = "<group>"; };
 		E34AB91C2529587D007AF254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E34AB95E25295AB9007AF254 /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
+		E34AB96225295AED007AF254 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		E34AB96425295B0F007AF254 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				E34AB8F425295875007AF254 /* AppDelegate.swift */,
 				E34AB8F625295875007AF254 /* GameScene.sks */,
 				E34AB8F825295875007AF254 /* Actions.sks */,
+				E34AB96225295AED007AF254 /* spark.png */,
+				E34AB96425295B0F007AF254 /* Explosion.sks */,
+				E34AB95E25295AB9007AF254 /* Starfield.sks */,
 				E34AB8FA25295875007AF254 /* GameScene.swift */,
 				E34AB8FC25295875007AF254 /* GameViewController.swift */,
 				E34AB8FE25295875007AF254 /* Main.storyboard */,
@@ -238,9 +247,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E34AB95F25295AB9007AF254 /* Starfield.sks in Resources */,
 				E34AB90025295875007AF254 /* Main.storyboard in Resources */,
 				E34AB8F725295875007AF254 /* GameScene.sks in Resources */,
 				E34AB9022529587D007AF254 /* Assets.xcassets in Resources */,
+				E34AB96325295AED007AF254 /* spark.png in Resources */,
+				E34AB96525295B0F007AF254 /* Explosion.sks in Resources */,
 				E34AB9052529587D007AF254 /* LaunchScreen.storyboard in Resources */,
 				E34AB8F925295875007AF254 /* Actions.sks in Resources */,
 			);
